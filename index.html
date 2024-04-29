@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -18,24 +18,26 @@
 			</div>
 		</section>
 
-		<nav class="navigation">
+		<section class="table-of-contents">
 			<div class="container container--grey container--larger">
 				<h2 class="nav__title">Содержание:</h2>
-				<ol class="navigation__list">
-					<li class="navigation__item">
-						<a class="navigation__link" href="#!">Отступ задается от предыдущего элемента к следующему</a>
-					</li>
-					<li class="navigation__item">
-						<a class="navigation__link" href="#!">Отступ задается последнему возможному элементу в DOM-дереве</a>
-					</li>
-					<li class="navigation__item">
-						<a class="navigation__link" href="#!">Для последнего элемента группы отступ обнуляется</a>
-					</li>
-				</ol>
+				<nav class="navigation">
+					<ol class="navigation__list">
+						<li class="navigation__item">
+							<a class="navigation__link" href="#chapter-one">Отступ задается от предыдущего элемента к следующему</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#chapter-two">Отступ задается последнему возможному элементу в DOM-дереве</a>
+						</li>
+						<li class="navigation__item">
+							<a class="navigation__link" href="#chapter-three">Для последнего элемента группы отступ обнуляется</a>
+						</li>
+					</ol>
+				</nav>
 			</div>
-		</nav>
+		</section>
 
-		<section class="chapter">
+		<section class="chapter" id="chapter-one">
 			<div class="container">
 				<h3 class="chapter__title">Отступ задается от&nbsp;предыдущего элемента к&nbsp;следующему: от&nbsp;первого ко&nbsp;второму, сверху вниз, слева направо.</h3>
 				<div class="chapter__content">
@@ -60,7 +62,7 @@
 			</div>
 		</section>
 
-		<section class="chapter">
+		<section class="chapter" id="chapter-two">
 			<div class="container">
 				<h3 class="chapter__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
 				<p>Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
@@ -80,7 +82,7 @@
 			</div>
 		</section>
 
-		<section class="chapter">
+		<section class="chapter" id="chapter-three">
 			<div class="container">
 				<h3 class="chapter__title">Для последнего элемента группы отступ всегда обнуляется</h3>
 
@@ -101,7 +103,7 @@
 			</div>
 		</section>
 
-		<section class="chapter">
+		<section class="brief">
 			<div class="container container--larger container--grey">
 				<h3 class="chapter__title">Подытожим:</h3>
 				<ul class="brief__list">

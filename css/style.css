@@ -110,8 +110,8 @@ img:not(:last-child) {
 /* ! CHAPTER 2 */
 
 figure {
+	border-top: solid #000 1px;
 	margin-bottom: 30px;
-	border: solid #000 1px;
 }
 
 figure>img {
@@ -121,6 +121,9 @@ figure>img {
 figcaption {
 	padding: 15px 30px;
 	color: #5E5E5E;
+	border: solid #000 1px;
+	border-top-width: 0;
+
 }
 
 /* ! BRIEF */
